@@ -43,7 +43,7 @@ describe("manyOdds", () => {
     console.log.restore();
   });
 
-  it ('should log 3 and 101', () => {
+  it ('should log 3 and 103', () => {
     expect(args).to.deep.include([3]);
     expect(args).to.deep.include([103]);
   });

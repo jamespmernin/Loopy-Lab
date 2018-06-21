@@ -1,4 +1,5 @@
 function manyEvens() {
+  // print all the even numbers between 1 and 100
   // use a for loop
   for (let i = 2; i < 101; i += 2) {
     console.log(i);
@@ -12,15 +13,6 @@ function manyOdds() {
   }
 }
 
-function factorial(n) {
-  let fac = 1;
-  while (n > 0) {
-    fac = fac * n;
-    n--;
-  }
-  return fac;
-}
-
 function sumToN(n) {
   let sum = 0;
   for (let i = 1;i <= n; i++) {
@@ -28,6 +20,21 @@ function sumToN(n) {
   }
 
   return sum;
+}
+
+function countDown(n) {
+  for (let i = n; i > 0; i--) {
+    console.log(i);
+  }
+}
+
+function factorial(n) {
+  let fac = 1;
+  while (n > 0) {
+    fac = fac * n;
+    n--;
+  }
+  return fac;
 }
 
 function leastCommonMult(a, b) {
@@ -69,6 +76,7 @@ export {
   factorial,
   sumToN,
   leastCommonMult,
-  fib
+  fib,
+  countDown
 };
 
