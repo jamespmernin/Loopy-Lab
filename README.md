@@ -1,5 +1,11 @@
 # Iteration Practice Lab YAY
 
+_During this exercise students will practice:_
+- Using both `for` and `while` loops to solve basic coding tasks
+- Incrementally write code to pass unit tests and verify that they pass
+- Given more challenging tasks and problems, strategically use loops to tackle more complex iterations
+- Breaking apart a difficult problem into smaller, debuggable steps
+
 ### Intro
 
 In this lab you'll get practice using `while` and `for` loops to solve basic programming problems.  There are also tests for your coding convenience!  Here's a brief rundown of what's to come:
