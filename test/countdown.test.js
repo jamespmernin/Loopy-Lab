@@ -6,16 +6,16 @@ describe('countDown', () => {
       const expected = countDown(2);
       expect(expected).toEqual(actual);
     });
-    test('if n in not a number, an error is thrown.', () => {
-      const expected = 'Please provide a number.';
-      let wasErrorThrown = false;
-      try {
-        countDown('Drake');
-      } catch(err) {
-        wasErrorThrown = true;
-        expect(err.message).toBe(expected);
-      } finally {
-        expect(wasErrorThrown).toBe(true);
-      }
-    });
+    // test('if n in not a number, an error is thrown.', () => {
+    //   const expected = 'Please provide a number.';
+    //   let wasErrorThrown = false;
+    //   try {
+    //     countDown('Drake');
+    //   } catch(err) {
+    //     wasErrorThrown = true;
+    //     expect(err.message).toBe(expected);
+    //   } finally {
+    //     expect(wasErrorThrown).toBe(true);
+    //   }
+    // });
 });
