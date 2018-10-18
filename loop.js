@@ -76,6 +76,12 @@ function fib(n) {
   } else if (n === 3) {
     return 1;
   }
+  for (let i = 3; i < n; i++ ) {
+    let sum = last + second;
+    second = last;
+    last = sum;
+  }
+  return last;
 }
 
 module.exports =  {
