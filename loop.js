@@ -11,6 +11,7 @@ function manyEvens() {
 }
 
 function manyOdds() {
+  // return an array that contains all the odd numbers between 3 and 103.
   // use a while loop
   const oddArr = [];
   let i = 3;
@@ -24,22 +25,57 @@ function manyOdds() {
 }
 
 function sumToN(n) {
-  console.log('')
-  for (let i = n; n >= 1; n -= 1) {
-    console.log(i);
+  //return the sum of all numbers from 1 to n.
+  let total = 0;
+  for (let i = 1; i <= n; i += 1) {
+    total += i;
   }
+  return total;
 }
 
 function countDown(n) {
+  //return an array of all numbers with n at index 0 and 1 at the last index.
+  if (typeof n !== 'number') {
+    throw new Error('Please provide a number.');
+  }
+  const arr = [];
+  for(let i = n; i >= 1; i -= 1) {
+    arr.push(i);
+  }
+  return arr;
 }
 
 function factorial(n) {
+  //compute the factorial of n. See https://en.wikipedia.org/wiki/Factorial.
+  let result = 1;
+  for(let i = 1; i <= n; i =+ 1) {
+    result *= i;
+  }
+  return result;
 }
 
-function leastCommonMult(a, b) {
+function leastCommonMult(a,b) {
+  const max = a > b ? a : b;
+  let ans;
+  for (let i = max; i <= a * b; i += max) {
+    if(i % a === 0 && i % b === 0 && i !== b && i !== a) {
+      ans = i;
+      break;
+    }
+  }
+  return ans;
 }
 
 function fib(n) {
+  let last = 1;
+  let second = 1;
+  if (n === 1) {
+    return 0;
+  } else if (n === 2) {
+    return 1;
+  } else if (n === 3) {
+    return 1;
+  }
 }
 
 module.exports =  {
