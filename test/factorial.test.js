@@ -6,6 +6,7 @@ describe('factorial', () => {
     const actual = 6;
     expect(expected).toBeEqual(actual);
   });
+  
   test('it returns 0 if input is 0.', () => {
     const expected = factorial(0);
     const actual = 0;
