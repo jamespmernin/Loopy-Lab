@@ -58,7 +58,9 @@ function leastCommonMult(a,b) {
   const max = a > b ? a : b;
   let ans;
   for (let i = max; i <= a * b; i += max) {
-    if(i % a === 0 && i % b === 0 && i !== b && i !== a) {
+    if (a === 1 || b === 1) {
+      ans = Math.max(a, b);
+    } else if(i % a === 0 && i % b === 0 && i !== b && i !== a) {
       ans = i;
       break;
     }
