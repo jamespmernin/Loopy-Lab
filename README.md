@@ -10,10 +10,10 @@ _During this exercise students will practice:_
 
 In this lab you'll get practice using `while` and `for` loops to solve basic programming problems.  There are also tests for your coding convenience!  Here's a brief rundown of what's to come:
 
-- `console.log` all the *even* numbers between 1 and 100
-- `console.log` all *odd* numbers from 3 up to 103
-- `console.log` all numbers starting from some number down to 1
+- `return` an array all the *even* numbers between 1 and 100
+- `return` an array of all the *odd* numbers from 3 up to 103
 - Compute the sum from 1 up to a given number
+- `return` an array of all numbers starting from some number down to 1
 - Compute the [Factorial!](https://en.wikipedia.org/wiki/Factorial) of a given number
 - Find the *least common multiple* of two numbers
 - Find the _nth_ [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci)
@@ -26,34 +26,28 @@ Some of these are tough problems, so don't sweat it if you don't make it all the
 
 You know the drill.
 
-- Fork this repo
-- Clone it down
-- `cd` into the directory
-- Open `loop.js` in your editor
-- When done, commit + push your changes to origin
-- Open a PR to this repo with your work
-- Celebrate
+1. Fork this repo
+1. Clone it down
+1. `cd` into the directory
+1. run `npm i`
+1. Open `loop.js` in your editor
+1. When done, commit + push your changes to origin
+1. Open a PR to this repo with your work
+1. Celebrate
 
-Since there are tests, go ahead and run
 
-```npm install```
-
-and then finally
-
-```npm test```
-
-to kick off the unit tests
+to kick off the unit tests: ```npm test```
 
 ### The Problems
 The tests should provide some guidance for what is required.  
 
-Start with `manyEvens`.  Using a `for` loop `console.log` all even numbers between 1 and 100, including 100.
+Start with `manyEvens`.  Using a `for` loop `push` all even numbers between 1 and 100 into an array and then return the array, including 100.
 
-For `manyOdds` use a `while` loop and `console.log` all odd numbers between 3 and 103, inclusive.
-
-`countDown` will be the last `console.log` type function.  Given some number _n_, loop from _n_ down to 1 using either a `for` or a `while` loop and `console.log` each number
+For `manyOdds` use a `while` loop and `push` all odd numbers between 3 and 103 inclusive, into an array and then return the array.
 
 Next, in `sumToN` using either a `for` or `while` loop compute the sum of all the digits from 1 up to some number, _n_.  *Hint:* For this and the remaining problems, it may help to declare a variable at the start of the function and then update it in a loop before returning it at the end of the function.
+
+For `countDown` given some number _n_, loop from _n_ down to 1 using either a `for` or a `while` loop and push each number into an array. Return the array.
 
 Next, `factorial` should return the factorial, e.g., 3!, for a given number.  To compute a factorial, take all the digits from 1 up to the number and multiple them together.  Thus, for 5, we would have to multiple 1 * 2 * 3 * 4 * 5 which gives 120 as the answer.  
 
