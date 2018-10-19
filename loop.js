@@ -14,8 +14,6 @@ function sumToN(n) {
 
 function countDown(n) {
   //Return an array of all numbers with n at index 0 and 1 at the last index.
-  //Bonus: uncomment the test that's commented out in countdown.test.js
-  //and see if you can get it to pass.
 }
 
 function factorial(n) {
