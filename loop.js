@@ -18,6 +18,11 @@ function countDown(n) {
 
 function factorial(n) {
   //compute the factorial of n. See https://en.wikipedia.org/wiki/Factorial.
+  let result = 1;
+  for(let i = 1; i <= n; i =+ 1) {
+    result *= i;
+  }
+  return result;
 }
 
 function leastCommonMult(a,b) {
