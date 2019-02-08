@@ -8,7 +8,7 @@ _During this exercise students will practice:_
 
 ### Intro
 
-In this lab you'll get practice using `while` and `for` loops to solve basic programming problems.  There are also tests for your coding convenience!  Here's a brief rundown of what's to come:
+In this homework, you'll get practice using `while` and `for` loops to solve basic programming problems.  There are also tests for your coding convenience!  Here's a brief rundown of what's to come:
 
 - `return` an array all the *even* numbers between 1 and 100
 - `return` an array of all the *odd* numbers from 3 up to 103
