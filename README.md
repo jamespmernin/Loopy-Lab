@@ -32,7 +32,7 @@ You know the drill.
 1. run `npm i`
 1. Open `loop.js` in your editor
 1. When done, commit + push your changes to origin
-1. Open a PR to this repo with your work
+1. Open a pull request to this repo with your work
 1. Celebrate
 
 
