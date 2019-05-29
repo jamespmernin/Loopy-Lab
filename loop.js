@@ -9,40 +9,35 @@ function manyOdds() {
 }
 
 function sumToN(n) {
-  //Return the sum of all numbers from 1 to n.
+  // Return the sum of all numbers from 1 to n.
 }
 
 function countDown(n) {
-  //Return an array of all numbers with n at index 0 and 1 at the last index.
+  // Return an array of all numbers with n at index 0 and 1 at the last index.
 }
 
 function factorial(n) {
-  //compute the factorial of n. See https://en.wikipedia.org/wiki/Factorial.
-  let result = 1;
-  for(let i = 1; i <= n; i =+ 1) {
-    result *= i;
-  }
-  return result;
+  // compute the factorial of n. See https://en.wikipedia.org/wiki/Factorial.
 }
 
-function leastCommonMult(a,b) {
-  //Bonus question:
-  //Find the least common multiple of two inputted numbers.
-  //See: https://en.wikipedia.org/wiki/Least_common_multiple
+function leastCommonMult(a, b) {
+  // Bonus question:
+  // Find the least common multiple of two inputted numbers.
+  // See: https://en.wikipedia.org/wiki/Least_common_multiple
 }
 
 function fib(n) {
-  //Bonus question:
-  //Find the nth number of the Fibonacci sequence.
-  //See https://en.wikipedia.org/wiki/Fibonacci_number.
+  // Bonus question:
+  // Find the nth number of the Fibonacci sequence.
+  // See https://en.wikipedia.org/wiki/Fibonacci_number.
 }
 
-module.exports =  {
+module.exports = {
   manyOdds,
   manyEvens,
   factorial,
   sumToN,
   leastCommonMult,
   fib,
-  countDown
+  countDown,
 };
