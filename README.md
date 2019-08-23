@@ -1,4 +1,4 @@
-# Iteration Practice Homework YAY
+# Iteration Practice Homework
 
 _During this exercise students will practice:_
 - Using both `for` and `while` loops to solve basic coding tasks
