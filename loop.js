@@ -1,6 +1,7 @@
 function manyEvens() {
   // Return an array that contains all the even numbers between 1 and 100.
   // Use a for loop.
+  
 }
 
 function manyOdds() {
