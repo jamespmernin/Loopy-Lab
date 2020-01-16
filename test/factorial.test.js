@@ -7,9 +7,9 @@ describe('factorial', () => {
     expect(expected).toEqual(actual);
   });
 
-  test('it returns 0 if input is 0.', () => {
+  test('it returns 1 if input is 0.', () => {
     const expected = factorial(0);
     const actual = 0;
-    expect(expected).toEqual(0);
+    expect(expected).toEqual(1);
   });
 });
