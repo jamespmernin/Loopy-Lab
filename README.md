@@ -10,12 +10,17 @@ _During this exercise students will practice:_
 
 In this homework, you'll get practice using `while` and `for` loops to solve basic programming problems.  There are also tests for your coding convenience!  Here's a brief rundown of what's to come:
 
-- `return` an array all the *even* numbers between 1 and 100
+- Log all numbers from 1 to 10
+- `return` an array all the *even* numbers between 1 and 100 
 - `return` an array of all the *odd* numbers from 3 up to 103
+- `return` the sum of all the values in an array
 - Compute the sum from 1 up to a given number
 - `return` an array of all numbers starting from some number down to 1
 - Compute the [Factorial!](https://en.wikipedia.org/wiki/Factorial) of a given number
 - Find the *least common multiple* of two numbers
+- Capitalize every other letter in a string
+- Log multiplications from 1 to 10
+- Match strings together from two arrays
 - Find the _nth_ [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci)
 
 Feel free to use "driver" code to test each individual function in addition to running the unit tests.

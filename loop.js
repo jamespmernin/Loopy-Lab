@@ -88,17 +88,19 @@ const funkyText = (text) => {
 
 const multiplicationTable = () => {
   /*
-   * multiplicationTable() should console.log() out a multiplication
-   * table ( or "times table" ) up to 10 in the format of "a X b is c".
-   * First, it should console.log() "1 X 1 is 1"; next, "1 X 2 is 2"
-   * until "1 X 10 is 10", then the following log should be "2 X 1 is 2" and so forth
-   * This one is a bit harder.  You will need to use a nested loop.
-   */
+  * Bonus question :
+  * multiplicationTable() should console.log() out a multiplication
+  * table ( or "times table" ) up to 10 in the format of "a X b is c".
+  * First, it should console.log() "1 X 1 is 1"; next, "1 X 2 is 2"
+  * until "1 X 10 is 10", then the following log should be "2 X 1 is 2" and so forth
+  * This one is a bit harder.  You will need to use a nested loop.
+  */
 
 }
 
 const activityLog = () => {
   /*
+   * Bonus question :
    * activityLog() should `console.log()` that each
    * person is doing each activity in order.  For example,
    * first, log "Eric went on a bike ride", then "Eric 
@@ -126,7 +128,7 @@ const activityLog = () => {
 
 function fib(n) {
   // Bonus question:
-  // Find the nth number of the Fibonacci sequence.
+  // Find the nth number of the Fibonacci sequence.d
   // See https://en.wikipedia.org/wiki/Fibonacci_number.
 }
 
