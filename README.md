@@ -11,10 +11,6 @@ _During this exercise students will practice:_
 
 In this homework, you'll get practice using `while` and `for` loops to solve basic programming problems. There are also tests for your coding convenience!
 
-Feel free to use "driver" code to test each individual function in addition to running the unit tests.
-
-Some of these are tough problems, so don't sweat it if you don't make it all the way through. Just plow through as much as possible!
-
 ### Get Set Up
 
 You know the drill.
