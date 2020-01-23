@@ -72,7 +72,7 @@ const activityLog = () => {
    * activityLog() should `console.log()` that each
    * person is doing each activity in order.  For example,
    * first, log "Eric went on a bike ride", then "Eric
-   * played badminton"...  After logging "Eric is going to the deli...", do the same for each activity  but for Jay-Z.
+   * played badminton"...  After logging "Eric is going to the deli...", do the same for each activity.
    * This task also requires a nested loop
    */
   const people = ['Eric', 'Jay-Z', 'John', 'Jason', 'Ryan', 'Micky']
