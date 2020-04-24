@@ -1,4 +1,4 @@
-const firstTenNums = () => {
+function firstTenNums() {
   // firstTenNums should `console.log()` the numbers
   // from 1 - 10.  Use a `for` loop.
 }
@@ -13,7 +13,7 @@ function manyOdds() {
   // Use a while loop.
 }
 
-const arraySum = nums => {
+function arraySum(nums) {
   // arraySum(nums) receives an array of numbers as an argument
   // and should return the sum of all the numbers.
   // For example,
@@ -40,7 +40,7 @@ function leastCommonMult(a, b) {
   // See: https://en.wikipedia.org/wiki/Least_common_multiple
 }
 
-const funkyText = text => {
+function funkyText(text) {
   /*
    * Bonus question :
    * funkyText(text) should return a modified version of `text` which
@@ -55,7 +55,7 @@ const funkyText = text => {
    */
 }
 
-const multiplicationTable = () => {
+function multiplicationTable() {
   /*
    * Bonus question :
    * multiplicationTable() should console.log() out a multiplication
@@ -66,7 +66,7 @@ const multiplicationTable = () => {
    */
 }
 
-const activityLog = () => {
+function activityLog() {
   /*
    * Bonus question :
    * activityLog() should `console.log()` that each
