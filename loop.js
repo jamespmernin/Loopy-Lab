@@ -72,12 +72,6 @@ function fib(n) {
   // See https://en.wikipedia.org/wiki/Fibonacci_number.
 }
 
-// BONUS //
-
-// There is tests for this but right now they are skipped
-// if you want to try this you can go into ./test/index.test.js
-// and comment back in the last line of that file
-
 function activityLog() {
   /*
    * Bonus question :
