@@ -9,8 +9,4 @@ require("./leastCommonMult.test");
 require("./funkyText.test");
 require("./multiplicationTable.test");
 require("./fib.test");
-
-//  Bonus
-// Uncomment this require to run these tests
-
-// require("./activityLog.test");
+require("./activityLog.test");
