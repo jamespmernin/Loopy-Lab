@@ -14,3 +14,4 @@ _Y = Yes, N = No, P = Partial, N/A = Not Applicable_
 **Questions:** Do I have to put the parentheses while passing the function name in the parameters?
 
 **Comments:** Loved the lesson, but I'm a little bit stuck with resolving promises... some extra material and exercises would help.
+ 
