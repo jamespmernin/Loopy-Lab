@@ -69,14 +69,7 @@ Should capitalize every other letter in a string. It should return a new string.
 
 Should console.log() out a multiplication table ( or "times table" ) up to 10 in the format of "a X b is c".
 
-### `activityLog()`
 
-Should `console.log()` that each
-person is doing each activity in order.
-For example:
-first, log "Eric went on a bike ride", then "Eric
-played badminton"... After logging "Eric is going to the deli...", do the same for each activity.
-This task also requires a nested loop
 
 ## Bonus
 
@@ -91,3 +84,12 @@ Compute the _least common multiple_ of two numbers. For example, since 8 _ 2 = 1
 Should compute the _nth_ Fibonacci number, beginning with 0. The first 14 numbers of the Fibonacci sequence are `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233 ...` So `fib(1)` should return 0 and `fib(8)` should return 13. This is a tough one! Check out the [wikipedia article for Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number) for a refresher if need be. A good strategy for tackling this problem is manually checking for the first few numbers in the sequence, and then set a `last` and `secondToLast` variables. Start a loop and each time, calculate the sum of `last` and `secondToLast` before updating those two variables. When you've reached the `nth` digit, return it and you're done!
 
 If you're finished with all the functions and want an additional challenge, uncomment the test that's commented out in `countdown.test.js` and see if you can get it to pass.
+
+### `activityLog()`
+
+Should `console.log()` that each
+person is doing each activity in order.
+For example:
+first, log "Eric went on a bike ride", then "Eric
+played badminton"... After logging "Eric is going to the deli...", do the same for each activity.
+This task also requires a nested loop

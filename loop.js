@@ -66,6 +66,12 @@ function multiplicationTable() {
    */
 }
 
+function fib(n) {
+  // Bonus question:
+  // Find the nth number of the Fibonacci sequence.d
+  // See https://en.wikipedia.org/wiki/Fibonacci_number.
+}
+
 function activityLog() {
   /*
    * Bonus question :
@@ -75,21 +81,15 @@ function activityLog() {
    * played badminton"...  After logging "Eric is going to the deli...", do the same for each activity.
    * This task also requires a nested loop
    */
-  const people = ['Eric', 'Jay-Z', 'John', 'Jason', 'Ryan', 'Micky']
+  const people = ["Eric", "Jay-Z", "John", "Jason", "Ryan", "Micky"];
 
   const activities = [
-    'went on a bike ride',
-    'played badminton',
-    'hailed a taxi',
-    'is visiting the Met',
-    'is going to the deli to nosh'
-  ]
-}
-
-function fib(n) {
-  // Bonus question:
-  // Find the nth number of the Fibonacci sequence.d
-  // See https://en.wikipedia.org/wiki/Fibonacci_number.
+    "went on a bike ride",
+    "played badminton",
+    "hailed a taxi",
+    "is visiting the Met",
+    "is going to the deli to nosh",
+  ];
 }
 
 module.exports = {
@@ -104,5 +104,5 @@ module.exports = {
   funkyText,
   multiplicationTable,
   activityLog,
-  fib
-}
+  fib,
+};
