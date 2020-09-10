@@ -177,6 +177,11 @@ function activityLog() {
     "is visiting the Met",
     "is going to the deli to nosh",
   ];
+  for (let i = 0; i < people.length; i++) {
+    for (let j = 0; j < activities.length; j++) {
+      console.log(`${people[i]} ${activities[j]}`);
+    }
+  }
 }
 
 module.exports = {
