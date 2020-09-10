@@ -55,6 +55,11 @@ function sumToN(n) {
 
 function countDown(n) {
   // Return an array of all numbers with n at index 0 and 1 at the last index.
+  let q6 = [];
+  for (let i = n; i >= 1; i--) {
+    q6.push(i);
+  }
+  return q6;
 }
 
 function factorial(n) {
