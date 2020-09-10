@@ -147,6 +147,7 @@ function fib(n) {
   // Bonus question:
   // Find the nth number of the Fibonacci sequence.
   // See https://en.wikipedia.org/wiki/Fibonacci_number.
+  // modifed from: https://www.geeksforgeeks.org/fibonacci-series-program-in-javascript/
   let f1 = 0;
   let b4 = 1;
   let z;
