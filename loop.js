@@ -111,6 +111,9 @@ function funkyText(text) {
    * together using "string".concat("otherString")
    * Alternatively, Array.split() and Array.join() might be useful
    */
+  // code modified from source: https://oamatech.com/how-to-use-touppercase-in-javascript/
+  // changes had to be made because the original code ignored spaces while this function is not
+  // supposed to ignore spaces
   let b2 = "";
 
   for (let i = 0; i < text.length; i++) {
@@ -133,6 +136,11 @@ function multiplicationTable() {
    * until "1 X 10 is 10", then the following log should be "2 X 1 is 2" and so forth
    * This one is a bit harder.  You will need to use a nested loop.
    */
+  for (let i = 1; i <= 10; i++) {
+    for (let j = 1; j <= 10; j++) {
+      console.log(`${i} X ${j} is ${i * j}`)
+    }
+  }
 }
 
 function fib(n) {
