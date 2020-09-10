@@ -145,8 +145,17 @@ function multiplicationTable() {
 
 function fib(n) {
   // Bonus question:
-  // Find the nth number of the Fibonacci sequence.d
+  // Find the nth number of the Fibonacci sequence.
   // See https://en.wikipedia.org/wiki/Fibonacci_number.
+  let f1 = 0;
+  let b4 = 1;
+  let z;
+  for (let i = 2; i < n; i++) {
+    z = f1 + b4;
+    f1 = b4;
+    b4 = z;
+  }
+  return b4;
 }
 
 function activityLog() {
