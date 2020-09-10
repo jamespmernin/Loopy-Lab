@@ -111,15 +111,17 @@ function funkyText(text) {
    * together using "string".concat("otherString")
    * Alternatively, Array.split() and Array.join() might be useful
    */
-  text = text.toLowerCase();
-  let b2 = '';
-  for (int i = 0; i < text.length; i++) {
-    if (i % 0 === 1) {
-      b2.concat(text[i].toUpperCase());
+  let b2 = "";
+
+  for (let i = 0; i < text.length; i++) {
+    let letter = text.charAt(i);
+    if (i % 2 === 1) {
+      b2 += letter.toUpperCase();
     } else {
-      b2.concat(text[i]);
+      b2 += letter;
     }
   }
+  return b2;
 }
 
 function multiplicationTable() {
