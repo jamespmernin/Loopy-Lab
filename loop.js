@@ -1,11 +1,21 @@
 function firstTenNums() {
   // firstTenNums should `console.log()` the numbers
   // from 1 - 10.  Use a `for` loop.
+  for (let i = 1; i <= 10; i++) {
+    console.log(i);
+  }
 }
 
 function manyEvens() {
   // Return an array that contains all the even numbers between 1 and 100 (inclusive).
   // Use a for loop.
+  let q2 = [];
+  for (let i = 1; i <= 100; i++) {
+    if (i % 2 === 0) {
+      q2.push(i);
+    }
+  }
+  return q2;
 }
 
 function manyOdds() {
