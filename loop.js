@@ -64,6 +64,11 @@ function countDown(n) {
 
 function factorial(n) {
   // compute the factorial of n. See https://en.wikipedia.org/wiki/Factorial.
+  let q7 = 1;
+  for (let i = 1; i <= n; i++) {
+    q7 *= i;
+  }
+  return q7;
 }
 
 function leastCommonMult(a, b) {
