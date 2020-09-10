@@ -21,6 +21,13 @@ function manyEvens() {
 function manyOdds() {
   // Return an array that contains all the odd numbers between 3 and 103 (inclusive).
   // Use a while loop.
+  let q3 = [];
+  for (let i = 3; i <= 103; i++) {
+    if (i % 2 === 1) {
+      q3.push(i);
+    }
+  }
+  return q3;
 }
 
 function arraySum(nums) {
