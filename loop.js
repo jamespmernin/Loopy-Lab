@@ -37,6 +37,11 @@ function arraySum(nums) {
   // arraySum([1, 2]) => 3
   // arraySum([3, 4, 5, 6]) => 18
   // Use a loop of your choice
+  let q4 = 0;
+  for (let i = 0; i < nums.length; i++) {
+    q4 += nums[i];
+  }
+  return q4;
 }
 
 function sumToN(n) {
