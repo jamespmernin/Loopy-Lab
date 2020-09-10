@@ -75,6 +75,27 @@ function leastCommonMult(a, b) {
   // Bonus question:
   // Find the least common multiple of two inputted numbers.
   // See: https://en.wikipedia.org/wiki/Least_common_multiple
+
+  // found a series of functions to calculate the lcm
+  // source: https://www.w3resource.com/javascript-exercises/javascript-math-exercise-10.php
+  return lcm_two_numbers(a, b)
+}
+
+function lcm_two_numbers(x, y) {
+  if ((typeof x !== 'number') || (typeof y !== 'number')) // checks to make sure inputs are both numbers
+    return false;
+  return (!x || !y) ? 0 : Math.abs((x * y) / gcd_two_numbers(x, y));
+}
+
+function gcd_two_numbers(x, y) {
+  x = Math.abs(x);
+  y = Math.abs(y);
+  while (y) {
+    var t = y;
+    y = x % y;
+    x = t;
+  }
+  return x;
 }
 
 function funkyText(text) {
@@ -90,6 +111,15 @@ function funkyText(text) {
    * together using "string".concat("otherString")
    * Alternatively, Array.split() and Array.join() might be useful
    */
+  text = text.toLowerCase();
+  let b2 = '';
+  for (int i = 0; i < text.length; i++) {
+    if (i % 0 === 1) {
+      b2.concat(text[i].toUpperCase());
+    } else {
+      b2.concat(text[i]);
+    }
+  }
 }
 
 function multiplicationTable() {
