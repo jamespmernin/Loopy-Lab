@@ -46,6 +46,11 @@ function arraySum(nums) {
 
 function sumToN(n) {
   // Return the sum of all numbers from 1 to n.
+  let q5 = 0;
+  for (let i = 1; i <= n; i++) {
+    q5 += i;
+  }
+  return q5;
 }
 
 function countDown(n) {
