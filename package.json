@@ -24,7 +24,7 @@
     "fsevents": "^2.0.7",
     "jasmine-fail-fast": "^2.0.0",
     "jest": "^23.6.0",
-    "mocha": "^5.2.0",
+    "mocha": "^10.1.0",
     "nodemon": "^1.19.0",
     "sinon": "^6.3.5",
     "sinon-chai": "^3.3.0"
